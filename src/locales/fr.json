@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "about": "À propos",
+    "experience": "Expériences",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "resume": "Télécharger CV"
+  },
+  "hero": {
+    "greeting": "Initializing Threat Detection...",
+    "name": "Imad IRAKI",
+    "roles": [
+      "Cybersecurity Engineer",
+      "SOC Analyst",
+      "Detection & Automation Specialist"
+    ],
+    "typing": "caldera --simulate --tactic discovery\n[+] Agent heartbeat received: T1087 (Account Discovery)\n[+] Mapping to MITRE ATT&CK framework...",
+    "cta": "Explorer Mon Travail"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Futur Ingénieur Cybersécurité spécialisé en SOC & Detection Engineering. Actuellement stagiaire PFE chez BLUESEC, je travaille sur l'automatisation de la détection Basé sur les techniques MITRE ATT&CK et les technologies de Breach and Att&ck Simulation. Mon objectif est de renforcer la résilience des infrastructures grâce à la corrélation intelligente des logs et à la supervision continue."
+  },
+  "experience": {
+    "title": "Expériences",
+    "jobs": [
+      {
+        "role": "Ingénieur Cybersécurité (PFE)",
+        "company": "BLUESEC Cybersecurity",
+        "date": "Fév 2026 - Jui 2026 • Casablanca",
+        "tasks": [
+          "Simulation (BAS) automatisée basée sur OpenAEV et Caldera.",
+          "Implémentation du Detection Engineering : création de règles de détection Kibana alignées sur le framework MITRE ATT&CK.",
+          "Développement d’un moteur de corrélation en Python pour lier automatiquement les simulations d’attaques aux alertes SIEM.",
+          "Mise en place de la télémétrie avancée via Sysmon et Winlogbeat pour la détection de comportements malveillants (PowerShell encodé, WMI, etc.).",
+          "Création de Dashboards SOC personnalisés sous Kibana pour la visualisation en temps réel des KPIs de détection et de prévention."
+        ],
+        "technologies": "OpenAEV, Caldera, Elastic Stack (ELK), Python, Docker, MITRE ATT&CK, Sysmon, EDR."
+      },
+      {
+        "role": "Stage Sécurité Monitoring Système",
+        "company": "Sogertel Cybersecurity LLC",
+        "date": "Juil. 2025 – Sept. 2025 • Casablanca",
+        "tasks": [
+          "Supervision des serveurs Linux et analyse des logs systèmes pour détecter anomalies et incidents.",
+          "Mise en place de sauvegardes sécurisées et chiffrement des données sensibles.",
+          "Automatisation de tâches de sécurité via scripts Bash."
+        ],
+        "technologies": "Restic, Rclone, Cloud, Sécurité des données, Linux."
+      },
+      {
+        "role": "Stage Administration Infrastructure Réseau",
+        "company": "Chambre de Commerce, d’Industrie et de Services",
+        "date": "Juil. 2024 – Août 2024 • Agadir",
+        "tasks": [
+          "Conception et sécurisation d’un réseau MPLS multi-sites.",
+          "Configuration VLAN, routage, segmentation et contrôle d’accès."
+        ],
+        "technologies": "Cisco, MPLS, VLAN, Routage, Switching."
+      },
+      {
+        "role": "Stage Sécurité Authentification",
+        "company": "Wilaya et Préfecture d’Agadir Ida-Outanane",
+        "date": "Avril 2023 • Agadir",
+        "tasks": [
+          "Déploiement d’un serveur d’authentification Freeradius.",
+          "Gestion des accès utilisateurs et sécurisation réseau."
+        ],
+        "technologies": "Linux, Freeradius, WPA2-enterprise."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences & Expertise",
+    "categories": [
+      {
+        "title": "🛡️ Cybersécurité & Supervision (SOC)",
+        "items": [
+          { "name": "Breach & Attack Simulation (BAS) :", "desc": "Automatisation d'attaques avec OpenAEV et Caldera." },
+          { "name": "Detection Engineering :", "desc": "Conception de règles de détection via Kibana et le framework MITRE ATT&CK." },
+          { "name": "SIEM & Log Management :", "desc": "Administration de la Stack ELK et de Wazuh." },
+          { "name": "Sécurité Réseau :", "desc": "Mise en place de VPN IPsec, pare-feu et systèmes de détection d'intrusions." }
+        ]
+      },
+      {
+        "title": "🌐 Réseaux & Infrastructures",
+        "items": [
+          { "name": "Ingénierie Réseau :", "desc": "Maîtrise des protocoles TCP/IP, routage, switching et technologies MPLS." },
+          { "name": "Administration Systèmes :", "desc": "Gestion de serveurs Linux et Windows Server." },
+          { "name": "Virtualisation & Cloud :", "desc": "Environnements VMware, VirtualBox et fondamentaux AWS." }
+        ]
+      },
+      {
+        "title": "⚙️ Développement & Automatisation",
+        "items": [
+          { "name": "Scripting Sécurité :", "desc": "Développement en Python (moteurs de corrélation) et Bash." },
+          { "name": "DevOps & Conteneurisation :", "desc": "Déploiement et gestion via Docker et Docker-compose." }
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "issuer": "Google",
+        "certs": [
+          {
+            "name": "Foundations of Cybersecurity",
+            "link": "https://coursera.org/verify/FYZLWT0422PJ"
+          },
+          {
+            "name": "Play It Safe: Manage Security Risks",
+            "link": "https://www.coursera.org/verify/SLFX4LS9Z8DD"
+          }
+        ]
+      },
+      {
+        "issuer": "Cisco Networking Academy",
+        "certs": [
+          {
+            "name": "CCNAv7: Introduction aux réseaux"
+          },
+          {
+            "name": "CCNAv7: Switching, Routing and Wireless Essentials"
+          }
+        ]
+      },
+      {
+        "issuer": "Red Team Leaders",
+        "certs": [
+          {
+            "name": "Certified Cybersecurity Educator Professional (CCEP)",
+            "link": "https://courses.redteamleaders.com/exam-completion/01f7d5c264b2d7e3"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "view_github": "Voir sur GitHub",
+    "items": [
+      {
+        "title": "Architecture Zero Trust 5G",
+        "description": "L’évolution vers la 5G Standalone apporte des performances inédites mais élargit considérablement la surface d’attaque des infrastructures télécoms. Ce projet porte sur la conception d'une architecture de sécurité multicouche reposant sur les principes du Zero Trust pour protéger les composants critiques du cœur de réseau 5G.",
+        "link": "https://github.com/l3ira9i/Architecture-Zero-Trust-pour-r-seau-5G-Standalone-Projet",
+        "tags": [
+          "5G",
+          "Zero Trust",
+          "Sécurité Réseau"
+        ]
+      },
+      {
+        "title": "Surveillance des logs et détection des instructions avec Wazuh et Elasticsearch",
+        "description": "Conception d'un système de supervision de sécurité (SIEM) centralisé. Utilisation de Wazuh pour la détection d'intrusions et de la Stack ELK pour la corrélation d'événements. Intégration de Suricata et VirusTotal pour enrichir la télémétrie et automatiser la détection de malwares.",
+        "link": "https://github.com/l3ira9i/Supervision-d-tection-d-intrusions-avec-Wazuh-Elasticsearch",
+        "tags": [
+          "Wazuh",
+          "Elasticsearch",
+          "SIEM"
+        ]
+      },
+      {
+        "title": "Supervision d'un réseau informatique",
+        "description": "Mise en place d'une solution de supervision open-source sous Linux pour la gestion des parcs informatiques complexes. L'objectif était de garantir la continuité de service via un système d'alerting en temps réel (SMS, Mail) pour réduire les temps d'arrêt et optimiser la maintenance réseau.",
+        "link": "https://github.com/l3ira9i/Monitoring-r-seau-avec-Nagios",
+        "tags": [
+          "Nagios",
+          "Supervision",
+          "Linux"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "email": "Email",
+    "phone": "Téléphone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "message": "Sécurisons l'avenir ensemble. N'hésitez pas à me contacter pour des collaborations ou des opportunités."
+  },
+  "footer": {
+    "text": "© 2026 Imad IRAKI. Tous droits réservés."
+  }
+}

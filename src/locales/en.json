@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experiences",
+    "skills": "Skills",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "resume": "Download CV"
+  },
+  "hero": {
+    "greeting": "Initializing Threat Detection...",
+    "name": "Imad IRAKI",
+    "roles": [
+      "Cybersecurity Engineer",
+      "SOC Analyst",
+      "Detection & Automation Specialist"
+    ],
+    "typing": "caldera --simulate --tactic discovery\n[+] Agent heartbeat received: T1087 (Account Discovery)\n[+] Mapping to MITRE ATT&CK framework...",
+    "cta": "Explore My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Aspiring Cybersecurity Engineer specializing in SOC & Detection Engineering. Currently a PFE intern @ BLUESEC, focusing on detection automation via the MITRE ATT&CK framework and Breach and Att&ck Simulation technologies. My goal: enhancing infrastructure resilience through intelligent log correlation and continuous monitoring."
+  },
+  "experience": {
+    "title": "Experiences",
+    "jobs": [
+      {
+        "role": "Cybersecurity Engineer (PFE)",
+        "company": "BLUESEC Cybersecurity",
+        "date": "Feb 2026 - Jul 2026 • Casablanca",
+        "tasks": [
+          "Automated Breach and Attack Simulation (BAS) based on OpenAEV and Caldera.",
+          "Implemented Detection Engineering: created Kibana detection rules aligned with the MITRE ATT&CK framework.",
+          "Developed a Python correlation engine to automatically link attack simulations to SIEM alerts.",
+          "Deployed advanced telemetry via Sysmon and Winlogbeat for detecting malicious behaviors (Encoded PowerShell, WMI, etc.).",
+          "Created custom SOC Dashboards in Kibana for real-time visualization of detection and prevention KPIs."
+        ],
+        "technologies": "OpenAEV, Caldera, Elastic Stack (ELK), Python, Docker, MITRE ATT&CK, Sysmon, EDR."
+      },
+      {
+        "role": "System Monitoring & Security Intern",
+        "company": "Sogertel Cybersecurity LLC",
+        "date": "Jul. 2025 – Sep. 2025 • Casablanca",
+        "tasks": [
+          "Monitored Linux servers and analyzed system logs to detect anomalies and incidents.",
+          "Implemented secure backups and encryption for sensitive data.",
+          "Automated security tasks via Bash scripts."
+        ],
+        "technologies": "Restic, Rclone, Cloud, Data Security, Linux."
+      },
+      {
+        "role": "Network Infrastructure Administration Intern",
+        "company": "Chamber of Commerce, Industry and Services",
+        "date": "Jul. 2024 – Aug. 2024 • Agadir",
+        "tasks": [
+          "Designed and secured a multi-site MPLS network.",
+          "Configured VLANs, routing, segmentation, and access control."
+        ],
+        "technologies": "Cisco, MPLS, VLAN, Routing, Switching."
+      },
+      {
+        "role": "Authentication Security Intern",
+        "company": "Wilaya and Prefecture of Agadir Ida-Outanane",
+        "date": "Apr. 2023 • Agadir",
+        "tasks": [
+          "Deployed a Freeradius authentication server.",
+          "Managed user access and network security."
+        ],
+        "technologies": "Linux, Freeradius, WPA2-enterprise."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "categories": [
+      {
+        "title": "🛡️ Cybersecurity & Supervision (SOC)",
+        "items": [
+          { "name": "Breach & Attack Simulation (BAS):", "desc": "Attack automation with OpenAEV and Caldera." },
+          { "name": "Detection Engineering:", "desc": "Designing detection rules via Kibana and MITRE ATT&CK framework." },
+          { "name": "SIEM & Log Management:", "desc": "Administration of ELK Stack and Wazuh." },
+          { "name": "Network Security:", "desc": "Deployment of IPsec VPNs, firewalls, and Intrusion Detection Systems." }
+        ]
+      },
+      {
+        "title": "🌐 Networks & Infrastructures",
+        "items": [
+          { "name": "Network Engineering:", "desc": "Mastery of TCP/IP protocols, routing, switching, and MPLS technologies." },
+          { "name": "Systems Administration:", "desc": "Linux and Windows Server management." },
+          { "name": "Virtualization & Cloud:", "desc": "VMware, VirtualBox environments, and AWS fundamentals." }
+        ]
+      },
+      {
+        "title": "⚙️ Development & Automation",
+        "items": [
+          { "name": "Security Scripting:", "desc": "Python (correlation engines) and Bash development." },
+          { "name": "DevOps & Containerization:", "desc": "Deployment and management via Docker and Docker-compose." }
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "issuer": "Google",
+        "certs": [
+          { "name": "Foundations of Cybersecurity", "link": "https://coursera.org/verify/FYZLWT0422PJ" },
+          { "name": "Play It Safe: Manage Security Risks", "link": "https://www.coursera.org/verify/SLFX4LS9Z8DD" }
+        ]
+      },
+      {
+        "issuer": "Cisco Networking Academy",
+        "certs": [
+          { "name": "CCNAv7: Introduction to Networks" },
+          { "name": "CCNAv7: Switching, Routing and Wireless Essentials" }
+        ]
+      },
+      {
+        "issuer": "Red Team Leaders",
+        "certs": [
+          { "name": "Certified Cybersecurity Educator Professional (CCEP)", "link": "https://courses.redteamleaders.com/exam-completion/01f7d5c264b2d7e3" }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "view_github": "View on GitHub",
+    "items": [
+      {
+        "title": "5G Zero Trust Architecture",
+        "description": "The evolution towards 5G Standalone brings unprecedented performance but significantly widens the attack surface of telecom infrastructures. This project focuses on designing a multi-layer security architecture based on Zero Trust principles to protect the critical components of the 5G core network.",
+        "link": "https://github.com/l3ira9i/Architecture-Zero-Trust-pour-r-seau-5G-Standalone-Projet",
+        "tags": ["5G", "Zero Trust", "Network Security"]
+      },
+      {
+        "title": "Log Supervision and Intrusion Detection with Wazuh and Elasticsearch",
+        "description": "Designed a centralized Security Information and Event Management (SIEM) system. Used Wazuh for intrusion detection and the ELK Stack for event correlation. Integrated Suricata and VirusTotal to enrich telemetry and automate malware detection.",
+        "link": "https://github.com/l3ira9i/Supervision-d-tection-d-intrusions-avec-Wazuh-Elasticsearch",
+        "tags": ["Wazuh", "Elasticsearch", "SIEM"]
+      },
+      {
+        "title": "Computer Network Monitoring",
+        "description": "Implemented an open-source monitoring solution on Linux for managing complex IT environments. The goal was to ensure service continuity via a real-time alerting system (SMS, Email) to reduce downtime and optimize network maintenance.",
+        "link": "https://github.com/l3ira9i/Monitoring-r-seau-avec-Nagios",
+        "tags": ["Nagios", "Monitoring", "Linux"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "message": "Let's secure the future together. Feel free to reach out for collaborations or opportunities."
+  },
+  "footer": {
+    "text": "© 2026 Imad IRAKI. All rights reserved."
+  }
+}
