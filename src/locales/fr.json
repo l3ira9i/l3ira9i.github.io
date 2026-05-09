@@ -172,6 +172,15 @@
           "Supervision",
           "Linux"
         ]
+      },
+      {
+        "title": "Évaluation de la sécurité d'un serveur web via Nessus",
+        "description": "Analyse approfondie des vulnérabilités d'un serveur web en utilisant Nessus. Identification des failles de sécurité potentielles, évaluation des risques associés et élaboration de recommandations techniques pour renforcer la robustesse de l'infrastructure.",
+        "tags": [
+          "Nessus",
+          "Vulnérabilités",
+          "Sécurité Web"
+        ]
       }
     ]
   },

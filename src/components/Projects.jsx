@@ -29,11 +29,13 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-              <div className="project-footer">
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                  <Github size={18} /> {t('projects.view_github')}
-                </a>
-              </div>
+              {project.link && (
+                <div className="project-footer">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+                    <Github size={18} /> {t('projects.view_github')}
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>

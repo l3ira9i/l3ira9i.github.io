@@ -147,6 +147,11 @@
         "description": "Implemented an open-source monitoring solution on Linux for managing complex IT environments. The goal was to ensure service continuity via a real-time alerting system (SMS, Email) to reduce downtime and optimize network maintenance.",
         "link": "https://github.com/l3ira9i/Monitoring-r-seau-avec-Nagios",
         "tags": ["Nagios", "Monitoring", "Linux"]
+      },
+      {
+        "title": "Web Server Security Assessment via Nessus",
+        "description": "In-depth vulnerability analysis of a web server using Nessus. Identified potential security flaws, assessed associated risks, and developed technical recommendations to strengthen the infrastructure's resilience.",
+        "tags": ["Nessus", "Vulnerabilities", "Web Security"]
       }
     ]
   },
