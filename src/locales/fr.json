@@ -13,23 +13,24 @@
     "name": "Imad IRAKI",
     "roles": [
       "Cybersecurity Engineer",
-      "SOC Analyst",
-      "Detection & Automation Specialist"
+      "SOC Analyst L1/L2",
+      "Detection & Automation Specialist",
+      "Cybersecurity Graduate"
     ],
-    "typing": "caldera --simulate --tactic discovery\n[+] Agent heartbeat received: T1087 (Account Discovery)\n[+] Mapping to MITRE ATT&CK framework...",
+    "typing": "[*] Chargement du moteur de règles de détection...\n[+] Analyse du flux de logs : 4 823 événements/sec\n[+] Règle déclenchée : T1003 (Credential Dumping) — Sévérité HAUTE\n[!] Alerte transmise au tableau de bord SOC...",
     "cta": "Explorer Mon Travail"
   },
   "about": {
     "title": "À propos de moi",
-    "description": "Futur Ingénieur Cybersécurité spécialisé en SOC & Detection Engineering. Actuellement stagiaire PFE chez BLUESEC, je travaille sur l'automatisation de la détection Basé sur les techniques MITRE ATT&CK et les technologies de Breach and Att&ck Simulation. Mon objectif est de renforcer la résilience des infrastructures grâce à la corrélation intelligente des logs et à la supervision continue."
+    "description": "Jeune ingénieur d'État en Systèmes et Réseaux Informatiques, récemment diplômé, avec une expérience concrète en cybersécurité opérationnelle acquise lors d'un PFE chez BlueSec Cybersecurity : Detection Engineering, corrélation d'événements SIEM, simulation d'attaques (Breach & Attack Simulation) alignée MITRE ATT&CK, et analyse de logs pour la détection de menaces. Solide culture réseaux et systèmes (MPLS, VLAN, Linux, Windows Server) permettant une bonne compréhension du terrain à sécuriser. Rigoureux, curieux et à l'aise en environnement technique exigeant."
   },
   "experience": {
     "title": "Expériences",
     "jobs": [
       {
-        "role": "Ingénieur Cybersécurité (PFE)",
+        "role": "Ingénieur Cybersécurité - Projet de Fin d'Études (PFE)",
         "company": "BLUESEC Cybersecurity",
-        "date": "Fév 2026 - Jui 2026 • Casablanca",
+        "date": "Fév 2026 – Juil 2026 • Casablanca",
         "tasks": [
           "Simulation (BAS) automatisée basée sur OpenAEV et Caldera.",
           "Implémentation du Detection Engineering : création de règles de détection Kibana alignées sur le framework MITRE ATT&CK.",
@@ -78,25 +79,52 @@
       {
         "title": "🛡️ Cybersécurité & Supervision (SOC)",
         "items": [
-          { "name": "Breach & Attack Simulation (BAS) :", "desc": "Automatisation d'attaques avec OpenAEV et Caldera." },
-          { "name": "Detection Engineering :", "desc": "Conception de règles de détection via Kibana et le framework MITRE ATT&CK." },
-          { "name": "SIEM & Log Management :", "desc": "Administration de la Stack ELK et de Wazuh." },
-          { "name": "Sécurité Réseau :", "desc": "Mise en place de VPN IPsec, pare-feu et systèmes de détection d'intrusions." }
+          {
+            "name": "Breach & Attack Simulation (BAS) :",
+            "desc": "Automatisation d'attaques avec OpenAEV et Caldera."
+          },
+          {
+            "name": "Detection Engineering :",
+            "desc": "Conception de règles de détection via Kibana et le framework MITRE ATT&CK."
+          },
+          {
+            "name": "SIEM & Log Management :",
+            "desc": "Administration de la Stack ELK et de Wazuh."
+          },
+          {
+            "name": "Sécurité Réseau :",
+            "desc": "Mise en place de VPN IPsec, pare-feu et systèmes de détection d'intrusions."
+          }
         ]
       },
       {
         "title": "🌐 Réseaux & Infrastructures",
         "items": [
-          { "name": "Ingénierie Réseau :", "desc": "Maîtrise des protocoles TCP/IP, routage, switching et technologies MPLS." },
-          { "name": "Administration Systèmes :", "desc": "Gestion de serveurs Linux et Windows Server." },
-          { "name": "Virtualisation & Cloud :", "desc": "Environnements VMware, VirtualBox et fondamentaux AWS." }
+          {
+            "name": "Ingénierie Réseau :",
+            "desc": "Maîtrise des protocoles TCP/IP, routage, switching et technologies MPLS."
+          },
+          {
+            "name": "Administration Systèmes :",
+            "desc": "Gestion de serveurs Linux et Windows Server."
+          },
+          {
+            "name": "Virtualisation & Cloud :",
+            "desc": "Environnements VMware, VirtualBox et fondamentaux AWS."
+          }
         ]
       },
       {
         "title": "⚙️ Développement & Automatisation",
         "items": [
-          { "name": "Scripting Sécurité :", "desc": "Développement en Python (moteurs de corrélation) et Bash." },
-          { "name": "DevOps & Conteneurisation :", "desc": "Déploiement et gestion via Docker et Docker-compose." }
+          {
+            "name": "Scripting Sécurité :",
+            "desc": "Développement en Python (moteurs de corrélation) et Bash."
+          },
+          {
+            "name": "DevOps & Conteneurisation :",
+            "desc": "Déploiement et gestion via Docker et Docker-compose."
+          }
         ]
       }
     ]
@@ -169,6 +197,7 @@
         "link": "https://github.com/l3ira9i/Monitoring-r-seau-avec-Nagios",
         "tags": [
           "Nagios",
+          "Zabbix",
           "Supervision",
           "Linux"
         ]

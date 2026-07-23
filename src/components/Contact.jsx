@@ -33,7 +33,7 @@ const Contact = () => {
               <span>+212 6 9676 1458</span>
             </a>
             
-            <a href="https://linkedin.com/in/imad-iraki" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a href="https://www.linkedin.com/in/imadiraki/" target="_blank" rel="noopener noreferrer" className="contact-item">
               <div className="icon-wrapper glass">
                 <Linkedin className="text-purple" />
               </div>

@@ -35,5 +35,13 @@ Ce document retrace l'ensemble des étapes et des choix techniques réalisés de
 - **Action** : Rédaction des instructions de déploiement dans le Walkthrough.
 - **Résultat** : Les étapes détaillées ont été fournies pour héberger le site sur Vercel et le lier à votre nom de domaine Namecheap (`irakiimad.me`) en configurant les enregistrements DNS (A Record et CNAME).
 
+## 7. Optimisation, Mise à Jour et Migration vers GitHub Pages
+- **Migration** : Transition de l'hébergement initial vers **GitHub Pages** pour un déploiement continu et automatisé (via GitHub Actions).
+- **Correction des Assets** : Résolution des erreurs 404 et des problèmes de type MIME (MIME type errors) en déplaçant les assets (images) vers le dossier `public/` pour garantir des chemins corrects en production.
+- **Amélioration UI/UX** : 
+  - Affinage des composants (`Experience.jsx`, `Skills.jsx`, `Contact.jsx`) pour une meilleure présentation du contenu.
+  - Optimisation des styles globaux et spécifiques (`index.css`, `Hero.css`) pour consolider le thème "Hacker / SOC" (effets glitch, glassmorphism, scan lines).
+- **Configuration** : Ajustement de `vite.config.js` et des workflows CI/CD pour s'adapter à l'environnement GitHub Pages.
+
 ---
 *Ce projet a été construit pour être facilement maintenable : si vous souhaitez modifier un texte à l'avenir, il suffit de changer les fichiers JSON dans `src/locales/` !*

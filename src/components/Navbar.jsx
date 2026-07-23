@@ -47,7 +47,7 @@ const Navbar = () => {
               <Globe size={18} />
               <span>{language.toUpperCase()}</span>
             </button>
-            <a href="/Imad_IRAKI_CVFR.pdf" download className="resume-btn glass">
+            <a href="/Imad_IRAKI.pdf" download className="resume-btn glass">
               {t('nav.resume')}
             </a>
           </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
               <Globe size={18} />
               <span>{language === 'en' ? 'FRançais' : 'ENglish'}</span>
             </button>
-            <a href="/Imad_IRAKI_CVFR.pdf" download className="resume-btn glass">
+            <a href="/Imad_IRAKI.pdf" download className="resume-btn glass">
               {t('nav.resume')}
             </a>
           </div>
