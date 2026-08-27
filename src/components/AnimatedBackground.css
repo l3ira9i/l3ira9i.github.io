@@ -1,0 +1,118 @@
+.animated-bg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  pointer-events: none;
+}
+
+/* Full-screen canvas for the network graph */
+.network-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+/* Ambient glowing orbs */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(110px);
+  opacity: 0.1;
+  will-change: transform;
+}
+
+.orb-cyan {
+  width: 55vw;
+  height: 55vw;
+  max-width: 700px;
+  max-height: 700px;
+  background: var(--accent-cyan);
+  top: -10%;
+  left: 5%;
+  animation: float-a 28s ease-in-out infinite alternate;
+}
+
+.orb-purple {
+  width: 45vw;
+  height: 45vw;
+  max-width: 550px;
+  max-height: 550px;
+  background: var(--accent-purple);
+  bottom: -5%;
+  right: 5%;
+  animation: float-b 35s ease-in-out infinite alternate-reverse;
+}
+
+.orb-blue {
+  width: 40vw;
+  height: 40vw;
+  max-width: 500px;
+  max-height: 500px;
+  background: var(--accent-blue);
+  top: 40%;
+  left: 45%;
+  animation: float-c 22s ease-in-out infinite alternate;
+}
+
+/* Subtle vignette to fade orbs into the background edges */
+.bg-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 20%,
+    rgba(9, 9, 11, 0.75) 100%
+  );
+}
+
+[data-theme="light"] .bg-vignette {
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 20%,
+    rgba(240, 240, 246, 0.75) 100%
+  );
+}
+
+[data-theme="light"] .animated-bg-container {
+  background-color: var(--bg-color);
+}
+
+[data-theme="light"] .orb {
+  opacity: 0.06;
+}
+
+@keyframes float-a {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(3vw, 5vh) scale(1.08); }
+  100% { transform: translate(-3vw, -4vh) scale(0.95); }
+}
+
+@keyframes float-b {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-4vw, -3vh) scale(1.1); }
+  100% { transform: translate(2vw, 6vh) scale(0.92); }
+}
+
+@keyframes float-c {
+  0%   { transform: translate(-50%, -50%) scale(1); }
+  50%  { transform: translate(-45%, -55%) scale(1.12); }
+  100% { transform: translate(-55%, -44%) scale(0.88); }
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .orb {
+    animation: none;
+  }
+  .network-canvas {
+    opacity: 0.3;
+  }
+}

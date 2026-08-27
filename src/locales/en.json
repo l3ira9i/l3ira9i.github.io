@@ -1,75 +1,133 @@
 {
   "nav": {
     "about": "About",
-    "experience": "Experiences",
+    "experience": "Experience",
     "skills": "Skills",
     "projects": "Projects",
     "certifications": "Certifications",
+    "education": "Education",
     "contact": "Contact",
     "resume": "Download CV"
   },
   "hero": {
-    "greeting": "Initializing Threat Detection...",
     "name": "Imad IRAKI",
+    "title": "Systems & Network Engineer",
+    "subtitle": "Network • Systems • Infrastructure • Security • Monitoring",
+    "description": "I design, administer and monitor IT infrastructures by combining networking, systems, security and automation.",
     "roles": [
-      "Cybersecurity Engineer",
-      "SOC Analyst L1/L2",
-      "Detection & Automation Specialist",
-      "Cybersecurity Graduate"
+      "Systems & Network Engineer",
+      "Network Infrastructure Engineer",
+      "IT Infrastructure Administrator",
+      "Network & Security Engineer",
+      "IT Support Engineer"
     ],
-    "typing": "[*] Loading detection rule engine...\n[+] Parsing log stream: 4,823 events/sec\n[+] Rule match: T1003 (Credential Dumping) — HIGH severity\n[!] Alert dispatched to SOC dashboard...",
-    "cta": "Explore My Work"
+    "terminal_lines": [
+      { "cmd": "whoami", "output": "imad@network-engineer" },
+      { "cmd": "skills --list", "output": "Cisco | FortiGate | Zabbix | VMware | Linux | Windows" },
+      { "cmd": "focus", "output": "Infrastructure • Networking • Security • Monitoring" }
+    ],
+    "cta_primary": "Explore My Work",
+    "cta_secondary": "Download CV"
   },
   "about": {
     "title": "About Me",
-    "description": "Newly graduated State Engineer in Computer Systems & Networks, with hands-on experience in operational cybersecurity gained during my final-year project (PFE) at BlueSec Cybersecurity: Detection Engineering, SIEM event correlation, MITRE ATT&CK-aligned Breach & Attack Simulation, and log analysis for threat detection. Strong background in networks and systems (MPLS, VLAN, Linux, Windows Server), providing a solid understanding of the infrastructure to be secured. Detail-oriented, curious, and comfortable in demanding technical environments."
+    "description": "State Engineer in Computer Systems and Networks with practical experience in network and systems administration, infrastructure monitoring, security and IT support. Experienced with Cisco, FortiGate, Zabbix, VMware/ESXi, Linux and Windows environments, with additional expertise in operational cybersecurity and threat detection.",
+    "domains": [
+      { "label": "Systems & Networks", "color": "cyan" },
+      { "label": "Infrastructure Monitoring", "color": "green" },
+      { "label": "Network Security", "color": "blue" },
+      { "label": "Cybersecurity", "color": "purple" }
+    ]
   },
   "experience": {
-    "title": "Experiences",
+    "title": "Experience",
+    "current_badge": "Current",
     "jobs": [
       {
-        "role": "Cybersecurity Engineer - Final Year Project (PFE) ✓",
-        "company": "BLUESEC Cybersecurity",
-        "date": "Feb 2026 – Jul 2026 • Casablanca",
+        "role": "Internship - IT Consultant / Assistant Trainer – Systems, Networks & Security",
+        "company": "ACLS Training Experts",
+        "location": "Casablanca, Morocco",
+        "date": "Aug. 2026 – Present",
+        "isCurrent": true,
+        "featured": true,
         "tasks": [
-          "Automated Breach and Attack Simulation (BAS) based on OpenAEV and Caldera.",
-          "Implemented Detection Engineering: created Kibana detection rules aligned with the MITRE ATT&CK framework.",
+          "Deployed and configured Zabbix to monitor machines, servers and network devices across the ACLS infrastructure.",
+          "Presented and demonstrated the main Zabbix features to training participants.",
+          "Prepared and studied FortiGate and FortiMail environments through administrator guides and lab workbooks.",
+          "Assisted with Fortinet client training sessions.",
+          "Supported participants in diagnosing and resolving issues encountered during hands-on labs."
+        ],
+        "tech_tags": ["Zabbix", "FortiGate", "FortiMail", "Cisco", "VMware/ESXi", "VPN", "Linux", "Windows"]
+      },
+      {
+        "role": "Final Year Internship (PFE) – Cybersecurity Engineer (Detection & Automation)",
+        "company": "BlueSec Cybersecurity",
+        "location": "Casablanca, Morocco",
+        "date": "Feb. 2026 – Jul. 2026",
+        "isCurrent": false,
+        "featured": false,
+        "tasks": [
+          "Designed and deployed a Breach & Attack Simulation (BAS) architecture based on MITRE ATT&CK using OpenAEV and Caldera.",
           "Developed a Python correlation engine to automatically link attack simulations to SIEM alerts.",
-          "Deployed advanced telemetry via Sysmon and Winlogbeat for detecting malicious behaviors (Encoded PowerShell, WMI, etc.).",
-          "Created custom SOC Dashboards in Kibana for real-time visualization of detection and prevention KPIs."
+          "Deployed Sysmon and Winlogbeat for advanced telemetry and threat detection.",
+          "Created custom SOC dashboards in Kibana for real-time detection and prevention KPI visualization."
         ],
-        "technologies": "OpenAEV, Caldera, Elastic Stack (ELK), Python, Docker, MITRE ATT&CK, Sysmon, EDR."
+        "tech_tags": ["OpenAEV", "Caldera", "Elastic Stack", "Suricata", "Python", "Docker", "MITRE ATT&CK", "Sysmon", "EDR"]
       },
       {
-        "role": "System Monitoring & Security Intern",
-        "company": "Sogertel Cybersecurity LLC",
-        "date": "Jul. 2025 – Sep. 2025 • Casablanca",
+        "role": "PFA Internship | Network Security & Backup",
+        "company": "Sogertel Cybersecurity",
+        "location": "Casablanca-Settat, Morocco",
+        "date": "Jul. 2025 – Sep. 2025",
+        "isCurrent": false,
+        "featured": false,
+        "compact": true,
         "tasks": [
-          "Monitored Linux servers and analyzed system logs to detect anomalies and incidents.",
-          "Implemented secure backups and encryption for sensitive data.",
-          "Automated security tasks via Bash scripts."
+          "Secured enterprise backups using Restic and encrypted cloud storage.",
+          "Configured Linux environments, automated backups, and ensured data encryption."
         ],
-        "technologies": "Restic, Rclone, Cloud, Data Security, Linux."
+        "tech_tags": ["Linux", "Restic", "Cloud", "Backup", "Automation", "Security"]
       },
       {
-        "role": "Network Infrastructure Administration Intern",
-        "company": "Chamber of Commerce, Industry and Services",
-        "date": "Jul. 2024 – Aug. 2024 • Agadir",
+        "role": "PFA Internship | Network Administration & Design",
+        "company": "CCIS Agadir - Souss Massa",
+        "location": "Agadir, Souss-Massa, Morocco",
+        "date": "Jul. 2024 – Aug. 2024",
+        "isCurrent": false,
+        "featured": false,
+        "compact": true,
         "tasks": [
-          "Designed and secured a multi-site MPLS network.",
-          "Configured VLANs, routing, segmentation, and access control."
+          "Designed and implemented an MPLS network to interconnect multiple sites.",
+          "Configured routers and switches, implemented network segmentation via VLANs, and set up dynamic routing."
         ],
-        "technologies": "Cisco, MPLS, VLAN, Routing, Switching."
+        "tech_tags": ["MPLS", "VLAN", "Routing", "Switching", "Cisco"]
       },
       {
-        "role": "Authentication Security Intern",
-        "company": "Wilaya and Prefecture of Agadir Ida-Outanane",
-        "date": "Apr. 2023 • Agadir",
+        "role": "PFA Internship | Network Security & Authentication",
+        "company": "Préfecture d'Agadir Ida-Outanane",
+        "location": "Agadir, Souss-Massa, Morocco",
+        "date": "Apr. 2023",
+        "isCurrent": false,
+        "featured": false,
+        "compact": true,
         "tasks": [
-          "Deployed a Freeradius authentication server.",
-          "Managed user access and network security."
+          "Configured a Linux-based router with a FreeRADIUS authentication server."
         ],
-        "technologies": "Linux, Freeradius, WPA2-enterprise."
+        "tech_tags": ["Linux", "Routing", "FreeRADIUS", "Authentication"]
+      },
+      {
+        "role": "IT Technician (Freelance)",
+        "company": "Auto Entrepreneur Maroc",
+        "location": "Morocco",
+        "date": "Aug. 2022 – May 2023",
+        "isCurrent": false,
+        "featured": false,
+        "compact": true,
+        "tasks": [
+          "Repaired and installed computer hardware and IT equipment.",
+          "Performed software and hardware maintenance, workstation configuration, and network troubleshooting."
+        ],
+        "tech_tags": ["IT Support", "Hardware", "Troubleshooting", "Networking"]
       }
     ]
   },
@@ -77,151 +135,140 @@
     "title": "Skills & Expertise",
     "categories": [
       {
-        "title": "🛡️ Cybersecurity & Supervision (SOC)",
-        "items": [
-          {
-            "name": "Breach & Attack Simulation (BAS):",
-            "desc": "Attack automation with OpenAEV and Caldera."
-          },
-          {
-            "name": "Detection Engineering:",
-            "desc": "Designing detection rules via Kibana and MITRE ATT&CK framework."
-          },
-          {
-            "name": "SIEM & Log Management:",
-            "desc": "Administration of ELK Stack and Wazuh."
-          },
-          {
-            "name": "Network Security:",
-            "desc": "Deployment of IPsec VPNs, firewalls, and Intrusion Detection Systems."
-          }
-        ]
+        "title": "Systems",
+        "icon": "Server",
+        "color": "blue",
+        "tags": ["Windows Server", "Linux", "Active Directory", "GPO"]
       },
       {
-        "title": "🌐 Networks & Infrastructures",
-        "items": [
-          {
-            "name": "Network Engineering:",
-            "desc": "Mastery of TCP/IP protocols, routing, switching, and MPLS technologies."
-          },
-          {
-            "name": "Systems Administration:",
-            "desc": "Linux and Windows Server management."
-          },
-          {
-            "name": "Virtualization & Cloud:",
-            "desc": "VMware, VirtualBox environments, and AWS fundamentals."
-          }
-        ]
+        "title": "Networking",
+        "icon": "Network",
+        "color": "cyan",
+        "tags": ["TCP/IP", "DNS", "DHCP", "VLAN", "NAT", "Routing", "Switching", "Wi-Fi", "VPN IPsec", "MPLS"]
       },
       {
-        "title": "⚙️ Development & Automation",
-        "items": [
-          {
-            "name": "Security Scripting:",
-            "desc": "Python and Bash development."
-          },
-          {
-            "name": "DevOps & Containerization:",
-            "desc": "Deployment and management via Docker and Docker-compose."
-          }
-        ]
-      }
-    ]
-  },
-  "certifications": {
-    "title": "Certifications",
-    "items": [
-      {
-        "issuer": "Google",
-        "certs": [
-          {
-            "name": "Foundations of Cybersecurity",
-            "link": "https://coursera.org/verify/FYZLWT0422PJ"
-          },
-          {
-            "name": "Play It Safe: Manage Security Risks",
-            "link": "https://www.coursera.org/verify/SLFX4LS9Z8DD"
-          }
-        ]
+        "title": "Security",
+        "icon": "Shield",
+        "color": "purple",
+        "tags": ["FortiGate", "Firewalling", "VPN", "SIEM", "Wazuh", "Suricata", "Log Analysis", "Threat Detection", "Incident Response"]
       },
       {
-        "issuer": "Cisco Networking Academy",
-        "certs": [
-          {
-            "name": "CCNAv7: Introduction to Networks"
-          },
-          {
-            "name": "CCNAv7: Switching, Routing and Wireless Essentials"
-          }
-        ]
+        "title": "Monitoring",
+        "icon": "Activity",
+        "color": "green",
+        "tags": ["Zabbix", "Nagios", "Elastic / Kibana", "SNMP", "Monitoring & Alerting"]
       },
       {
-        "issuer": "Red Team Leaders",
-        "certs": [
-          {
-            "name": "Certified Cybersecurity Educator Professional (CCEP)",
-            "link": "https://courses.redteamleaders.com/exam-completion/01f7d5c264b2d7e3"
-          }
-        ]
+        "title": "Virtualization",
+        "icon": "Server",
+        "color": "cyan",
+        "tags": ["VMware/ESXi", "VirtualBox", "Docker"]
+      },
+      {
+        "title": "Programming",
+        "icon": "Code",
+        "color": "blue",
+        "tags": ["Python", "Bash", "Java (basics)"]
       }
     ]
   },
   "projects": {
     "title": "Projects",
     "view_github": "View on GitHub",
+    "featured_badge": "Featured",
     "items": [
       {
-        "title": "5G Zero Trust Architecture",
-        "description": "The evolution towards 5G Standalone brings unprecedented performance but significantly widens the attack surface of telecom infrastructures. This project focuses on designing a multi-layer security architecture based on Zero Trust principles to protect the critical components of the 5G core network.",
-        "link": "https://github.com/l3ira9i/Architecture-Zero-Trust-pour-r-seau-5G-Standalone-Projet",
-        "tags": [
-          "5G",
-          "Zero Trust",
-          "Network Security"
-        ]
+        "title": "Network Monitoring with Zabbix",
+        "description": "Deployed and configured Zabbix to supervise a multi-component IT infrastructure including servers, workstations and network devices. Set up real-time alerting (email, SMS), SNMP monitoring and custom dashboards for infrastructure visibility.",
+        "featured": false,
+        "tags": ["Zabbix", "SNMP", "Monitoring", "Linux", "Network"]
       },
       {
-        "title": "Log Supervision and Intrusion Detection with Wazuh and Elasticsearch",
-        "description": "Designed a centralized Security Information and Event Management (SIEM) system. Used Wazuh for intrusion detection and the ELK Stack for event correlation. Integrated Suricata and VirusTotal to enrich telemetry and automate malware detection.",
-        "link": "https://github.com/l3ira9i/Supervision-d-tection-d-intrusions-avec-Wazuh-Elasticsearch",
-        "tags": [
-          "Wazuh",
-          "Elasticsearch",
-          "SIEM"
-        ]
-      },
-      {
-        "title": "Computer Network Monitoring",
-        "description": "Implemented an open-source monitoring solution on Linux for managing complex IT environments. The goal was to ensure service continuity via a real-time alerting system (SMS, Email) to reduce downtime and optimize network maintenance.",
+        "title": "Network Monitoring with Nagios",
+        "description": "Implemented an open-source monitoring solution on Linux for managing complex IT environments. Configured real-time alerting (SMS, Email) to ensure service continuity, reduce downtime and optimize network maintenance.",
         "link": "https://github.com/l3ira9i/Monitoring-r-seau-avec-Nagios",
-        "tags": [
-          "Nagios",
-          "Zabbix",
-          "Monitoring",
-          "Linux"
+        "featured": false,
+        "tags": ["Nagios", "Monitoring", "Linux", "Alerting"]
+      },
+      {
+        "title": "Wazuh + Elasticsearch – Intrusion Detection",
+        "description": "Designed a centralized SIEM system using Wazuh for intrusion detection and the ELK Stack for event correlation. Integrated Suricata and VirusTotal to enrich telemetry and automate malware detection.",
+        "link": "https://github.com/l3ira9i/Supervision-d-tection-d-intrusions-avec-Wazuh-Elasticsearch",
+        "featured": false,
+        "tags": ["Wazuh", "Elasticsearch", "SIEM", "Suricata"]
+      },
+      {
+        "title": "Zero Trust Architecture for 5G Standalone",
+        "description": "Designed a multi-layer security architecture based on Zero Trust principles to protect the critical components of a 5G Standalone core network, addressing the expanded attack surface introduced by 5G evolution.",
+        "link": "https://github.com/l3ira9i/Architecture-Zero-Trust-pour-r-seau-5G-Standalone-Projet",
+        "featured": false,
+        "tags": ["5G", "Zero Trust", "Network Security", "Architecture"]
+      },
+      {
+        "title": "Web Vulnerability Assessment with Nessus",
+        "description": "In-depth vulnerability analysis of a web server using Nessus. Identified potential security flaws, assessed associated risks and produced technical recommendations to strengthen infrastructure resilience.",
+        "featured": false,
+        "tags": ["Nessus", "Vulnerability Assessment", "Web Security"]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "verify": "Verify",
+    "items": [
+      {
+        "issuer": "Cisco Networking Academy",
+        "certs": [
+          { "name": "CCNAv7: Introduction to Networks" },
+          { "name": "CCNAv7: Switching, Routing and Wireless Essentials" }
         ]
       },
       {
-        "title": "Web Server Security Assessment via Nessus",
-        "description": "In-depth vulnerability analysis of a web server using Nessus. Identified potential security flaws, assessed associated risks, and developed technical recommendations to strengthen the infrastructure's resilience.",
-        "tags": [
-          "Nessus",
-          "Vulnerabilities",
-          "Web Security"
+        "issuer": "Google / Coursera",
+        "certs": [
+          { "name": "Foundations of Cybersecurity", "link": "https://coursera.org/verify/FYZLWT0422PJ" },
+          { "name": "Play It Safe: Manage Security Risks", "link": "https://www.coursera.org/verify/SLFX4LS9Z8DD" }
         ]
       }
     ]
   },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "State Engineer Diploma – Computer Systems & Networks",
+        "school": "IGA – Institut Supérieur du Génie Appliqué",
+        "location": "Casablanca, Morocco",
+        "date": "Oct. 2024 – Jul. 2026",
+        "level": "engineer"
+      },
+      {
+        "degree": "Professional Bachelor – Computer Systems Engineering",
+        "school": "IGA – Institut Supérieur du Génie Appliqué",
+        "location": "Casablanca, Morocco",
+        "date": "Oct. 2023 – Jul. 2024",
+        "level": "bachelor"
+      },
+      {
+        "degree": "Specialized Technician – Computer Systems & Networks",
+        "school": "ILEIC - Institut Libre des Etudes Informatiques & Commerciales",
+        "location": "Agadir, Morocco",
+        "date": "Oct. 2021 – Jul. 2023",
+        "level": "technician"
+      }
+    ]
+  },
   "contact": {
-    "title": "Contact Me",
-    "email": "Email",
-    "phone": "Phone",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "message": "Let's secure the future together. Feel free to reach out for collaborations or opportunities."
+    "title": "Contact",
+    "cta": "Let's build reliable and secure infrastructure.",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "linkedin_label": "LinkedIn",
+    "github_label": "GitHub",
+    "portfolio_label": "Portfolio"
   },
   "footer": {
-    "text": "© 2026 Imad IRAKI. All rights reserved."
+    "tagline": "Systems & Network Engineer",
+    "text": "© 2026 Imad Iraki. All rights reserved."
   }
 }

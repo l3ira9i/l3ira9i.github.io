@@ -43,5 +43,16 @@ Ce document retrace l'ensemble des étapes et des choix techniques réalisés de
   - Optimisation des styles globaux et spécifiques (`index.css`, `Hero.css`) pour consolider le thème "Hacker / SOC" (effets glitch, glassmorphism, scan lines).
 - **Configuration** : Ajustement de `vite.config.js` et des workflows CI/CD pour s'adapter à l'environnement GitHub Pages.
 
+## 8. Refonte du Profil & Nouvelles Fonctionnalités (Août 2026)
+- **Nouveau Positionnement** : Transition du profil orienté "SOC Analyst" vers **Ingénieur Systèmes & Réseaux / Network & Infrastructure Engineer**, tout en conservant une forte spécialisation en Cybersécurité.
+- **Mise à Jour du Contenu (CV)** : 
+  - Restructuration des compétences en 6 catégories (Systèmes, Réseaux, Sécurité, Supervision, Virtualisation, Programmation).
+  - Ajout d'expériences détaillées (stages PFA et expérience Freelance).
+  - Ajustement des titres et sections pour correspondre précisément au nouveau CV LaTeX.
+- **Améliorations Esthétiques et Techniques** :
+  - **Background Animé (Canvas)** : Ajout d'un composant global interactif `AnimatedBackground` (effet de nœuds réseau interconnectés avec parallax au scroll).
+  - **Mode Clair / Sombre (Dark/Light Mode)** : Implémentation d'un `ThemeContext` complet avec gestion de variables CSS globales, persistance locale et un toggle dans la barre de navigation.
+  - **Design & Layout** : Centrage des contacts, justification du texte "À propos", ajustement des niveaux de flou et de la colorimétrie pour le thème clair.
+
 ---
 *Ce projet a été construit pour être facilement maintenable : si vous souhaitez modifier un texte à l'avenir, il suffit de changer les fichiers JSON dans `src/locales/` !*
