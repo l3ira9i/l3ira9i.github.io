@@ -101,7 +101,7 @@ const Navbar = () => {
             </button>
 
             <a
-              href={language === 'fr' ? '/Imad_IRAKI_CVFR.pdf' : '/Imad_IRAKI.pdf'}
+              href="/Imad_IRAKI.pdf"
               download
               className="resume-btn glass"
               aria-label="Download CV"
@@ -183,7 +183,7 @@ const Navbar = () => {
               <span>{language === 'en' ? 'Français' : 'English'}</span>
             </button>
             <a
-              href={language === 'fr' ? '/Imad_IRAKI_CVFR.pdf' : '/Imad_IRAKI.pdf'}
+              href="/Imad_IRAKI.pdf"
               download
               className="resume-btn glass"
             >
